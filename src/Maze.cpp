@@ -4,7 +4,7 @@ class Maze
 {
 public:
 
-    std::vector<std::vector<bool>> tiles; 
+    std::vector<std::vector<bool>> tiles; // Maze tiles 
 
     Maze(int newSizeX, int newSizeY)
     {
@@ -32,7 +32,7 @@ public:
 
 private:
 
-    int sizeX;
-    int sizeY;
+    int sizeX; // Maze size X
+    int sizeY; // Maze size Y
 
 };
